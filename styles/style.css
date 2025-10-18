@@ -13,18 +13,22 @@
   display: flex;
   justify-self: start;
   align-items: center;
-  padding-bottom: 7px;
+  padding-bottom: 6px;
+  gap: 32px;
 }
 
-.header__menu-list {
+.header__links-list {
   display: flex;
   flex-direction: row;
-  font-size: 18px;
   text-underline-offset: 4px;
   list-style: none;
-  font-weight: 400;
   line-height: 100%;
   gap: 13px;
+  letter-spacing: 0.01em;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
 }
 
 .nav__circle {
@@ -33,6 +37,7 @@
   height: 6px;
   border-radius: 50%;
   border: 0.5px solid #000;
+  vertical-align: middle;
 }
 
 .header__logo {
@@ -46,7 +51,29 @@
 }
 
 .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  width: 240px;
+  height: 98px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  gap: 3px;
+}
 
+.contacts__tel {
+  text-underline-offset: 4px;
+}
+
+.contacts__email {
+  text-underline-offset: 4px;
+}
+
+.contacts__address {
+  width: 236.49px;
+  line-height: 1.35;
 }
 
 .cover {
